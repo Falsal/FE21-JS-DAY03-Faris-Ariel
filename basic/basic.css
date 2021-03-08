@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=basic.css.map */
+*,
+*::after,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: lightgrey;
+  height: 5rem;
+}
+
+.pictures-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin: 2rem 0;
+}
+
+.footer-container {
+  background-color: lightgrey;
+  height: 5rem;
+}
+/*# sourceMappingURL=basic.css.map */
