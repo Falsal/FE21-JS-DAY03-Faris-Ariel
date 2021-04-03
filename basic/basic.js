@@ -10,7 +10,7 @@
     //     console.log(val,idName)
     // }
     
-    let temp = Math.random()*30 - 5; 
+ let temp = Math.random()*30 - 5; 
 
 if (temp >= -5 && temp <=10){
     document.getElementById('temp').innerHTML=` Temperature is ${parseInt(temp)} The weather is cold`

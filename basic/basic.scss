@@ -1,1 +1,28 @@
+*,
+*::after,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+.header-container {
+  background-color: lightgrey;
+  height: 5rem;
+}
 
+// .header-box {
+//   width: 1rem;
+//   height: 1rem;
+//   background-color: gold;
+// }
+
+.pictures-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin: 2rem 0;
+}
+
+.footer-container {
+  background-color: lightgrey;
+  height: 5rem;
+}
