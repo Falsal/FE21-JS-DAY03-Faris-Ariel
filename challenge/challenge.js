@@ -1,3 +1,23 @@
+// Question:
+// To solve this task, you will need two arrays: Student and MathGrades. The arrays should have respectively in Students, the students names and in the MathGrades, in the same index, the students grade for Maths going from 0 to 100.
+
+// Students = [“John”, “Jane”]
+
+// MathGrades = [70, 85]
+
+// There should be a variable that can store a student's name. This name should be compared to the Students array and, when it is found, should output the name and grade, nicely on the screen. I.e.:
+
+// John has reached 70 points in Math this season.
+
+// The grades should also be checked and if it is less than 60 it should show it in red color, if it is between 60 and 70, it should be yellow, over 70 it should show green and if it is 100, it should be blue.
+
+
+// Hint: 
+
+// prompt() function will make an alert window that has an input inside, when the user types its name in it, it can be saved in a variable, for example:
+
+// var result = prompt("type your name");
+
 let students = ["Mike", "George", "Abas", "Ulrich", "Suzanna", "Sara"];
 let Grades = [55, 65, 75, 86, 91, 100];
 
